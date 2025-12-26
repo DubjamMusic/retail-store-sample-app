@@ -10,7 +10,21 @@ Clone the repository then run `yarn install` in the root.
 
 The repository structure is as follows:
 
-TODO
+```
+├── src/                    # Source code for all services
+│   ├── cart/               # Cart service (Java/Spring)
+│   ├── catalog/            # Catalog service (Go)
+│   ├── checkout/           # Checkout service (Node.js/NestJS)
+│   ├── orders/             # Orders service (Java/Spring)
+│   ├── ui/                 # UI frontend (Node.js)
+│   ├── e2e/                # End-to-end tests (Cypress)
+│   ├── load-generator/     # Load generator for testing
+│   └── misc/               # Miscellaneous utilities and configs
+├── docs/                   # Documentation
+├── samples/                # Sample configurations and deployments
+├── scripts/                # Build and utility scripts
+└── oss/                    # Open source related files
+```
 
 ## Using devenv
 
